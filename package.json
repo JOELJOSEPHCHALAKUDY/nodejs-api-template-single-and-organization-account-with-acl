@@ -1,0 +1,32 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Joel Joseph",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "aws-sdk": "^2.400.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cron": "^1.6.0",
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.3",
+    "joi": "^13.7.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.23.0",
+    "mongoose": "^5.3.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "multer-s3": "^2.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.0",
+    "stripe": "^6.20.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
